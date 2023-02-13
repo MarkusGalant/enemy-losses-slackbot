@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "jsx": "react-jsx",
+        "rootDir": ".",
+        "lib": [
+            "ESNext"
+        ],
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "ts-node": {
+        "experimentalSpecifierResolution": "node"
+    }
+}
